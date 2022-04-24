@@ -1,0 +1,20 @@
+
+cost_price=int(input("Enter Cost Price:"))
+sales_price=int(input("Enter sales Price:"))
+
+def sales_analyses(cost_price,sales_price):
+
+    if sales_price < cost_price:
+        loss=sales_price - cost_price
+        print("loss:",loss)
+        return loss
+    else:
+        sales_price > cost_price
+        profit= sales_price -cost_price
+        print("profit:",profit)
+        return profit
+
+
+gain=sales_analyses(cost_price,sales_price)
+
+print(gain)
